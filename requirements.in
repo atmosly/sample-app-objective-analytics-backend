@@ -1,0 +1,15 @@
+# TODO: split between production and development (e.g. have mypy there)
+# TODO: make backends (postgres?) optional
+
+jsonschema
+flask
+flask-cors
+psycopg2-binary
+requests
+
+## needed for AWS integration
+boto3
+
+## needed for GCP integration
+google-cloud-pubsub
+thrift
